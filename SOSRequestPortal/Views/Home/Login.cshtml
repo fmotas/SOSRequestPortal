@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+	Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>SOS Request Portal</title>
+</head>
+<div class="container">
+	<body>
+		<center>
+			<img src="~/images/sos.png" width="440" height="250" align="top"></img>
+		</center>
+
+		<center>
+			<font face="segoe ui">
+				<form name="loginForm" action="/Auth/signIn" method="post">
+					<label><font face="segoe ui">Email</label><br>
+					<input type="email" name="userName" id="userName"><br>
+
+					<label>Senha</label><br>
+					<input type="password" name="userPassword" id="userPassword"><br><br>
+					<input type="submit" class="btn btn-primary" value="Entrar" style="font-size: 16px; font-family:'segoe ui';background-color: #009900; border-radius: 5px">
+			</font>
+			</form>
+		</center>
+	</body>
+</div>
+</html>
+
+
+
