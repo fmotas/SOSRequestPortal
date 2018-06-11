@@ -1,0 +1,209 @@
+﻿@model IEnumerable<SOSRequestPortal.Models.IRequest>
+
+@{
+	ViewData["Title"] = "Requisições";
+}
+<div left: auto;>
+
+
+	<center><h2>Requisições</h2></center>
+
+	<center>
+		<p>
+			<a asp-action="Criar">Criar uma nova Requisição</a>
+		</p>
+	</center>
+
+
+		<table class="table">
+			<thead>
+				<tr>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.RequestID)
+						</center>
+					</th>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.Data)
+						</center>
+					</th>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.Ticket)
+						</center>
+					</th>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.Item)
+						</center>
+					</th>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.TipoDeImagem)
+						</center>
+					</th>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.Colaborador)
+						</center>
+					</th>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.Time)
+						</center>
+					</th>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.Gestor)
+						</center>
+					</th>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.Requisitante)
+						</center>
+					</th>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.HorarioDaRequisicao)
+						</center>
+					</th>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.HorarioDaRetirada)
+						</center>
+					</th>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.Status)
+						</center>
+					</th>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.Patrimonio)
+						</center>
+					</th>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.NumeroDeSerie)
+						</center>
+					</th>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.RetiradoPor)
+						</center>
+					</th>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.EntreguePor)
+						</center>
+					</th>
+					<th>
+						<center>
+							@Html.DisplayNameFor(model => model.Observacao)
+						</center>
+					</th>
+					<th><center></center></th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+			{
+				<tr>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.RequestID)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.Data)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.Ticket)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.Item)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.TipoDeImagem)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.Colaborador)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.Time)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.Gestor)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.Requisitante)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.HorarioDaRequisicao)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.HorarioDaRetirada)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.Status)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.Patrimonio)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.NumeroDeSerie)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.RetiradoPor)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.EntreguePor)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.DisplayFor(modelItem => item.Observacao)
+						</center>
+					</td>
+					<td>
+						<center>
+							@Html.ActionLink("Editar", "Editar", new { id = item.RequestID }) |
+							@Html.ActionLink("Deletar", "Deletar", new { id = item.RequestID })
+						</center>
+					</td>
+				</tr>
+		}
+			</tbody>
+
+		</table>
+</div>

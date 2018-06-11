@@ -1,0 +1,11 @@
+D:\Repository\SOSRequestPortal\SOSRequestPortal\bin\Release\netcoreapp2.0\SOSRequestPortal.deps.json
+D:\Repository\SOSRequestPortal\SOSRequestPortal\bin\Release\netcoreapp2.0\SOSRequestPortal.runtimeconfig.json
+D:\Repository\SOSRequestPortal\SOSRequestPortal\bin\Release\netcoreapp2.0\SOSRequestPortal.runtimeconfig.dev.json
+D:\Repository\SOSRequestPortal\SOSRequestPortal\bin\Release\netcoreapp2.0\SOSRequestPortal.dll
+D:\Repository\SOSRequestPortal\SOSRequestPortal\bin\Release\netcoreapp2.0\SOSRequestPortal.pdb
+D:\Repository\SOSRequestPortal\SOSRequestPortal\obj\Release\netcoreapp2.0\SOSRequestPortal.csprojResolveAssemblyReference.cache
+D:\Repository\SOSRequestPortal\SOSRequestPortal\obj\Release\netcoreapp2.0\SOSRequestPortal.csproj.CoreCompileInputs.cache
+D:\Repository\SOSRequestPortal\SOSRequestPortal\obj\Release\netcoreapp2.0\SOSRequestPortal.AssemblyInfoInputs.cache
+D:\Repository\SOSRequestPortal\SOSRequestPortal\obj\Release\netcoreapp2.0\SOSRequestPortal.AssemblyInfo.cs
+D:\Repository\SOSRequestPortal\SOSRequestPortal\obj\Release\netcoreapp2.0\SOSRequestPortal.dll
+D:\Repository\SOSRequestPortal\SOSRequestPortal\obj\Release\netcoreapp2.0\SOSRequestPortal.pdb

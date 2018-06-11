@@ -8,4 +8,3 @@ D:\Repository\SOSRequestPortal\SOSRequestPortal\obj\Debug\netcoreapp2.0\SOSReque
 D:\Repository\SOSRequestPortal\SOSRequestPortal\obj\Debug\netcoreapp2.0\SOSRequestPortal.AssemblyInfo.cs
 D:\Repository\SOSRequestPortal\SOSRequestPortal\obj\Debug\netcoreapp2.0\SOSRequestPortal.dll
 D:\Repository\SOSRequestPortal\SOSRequestPortal\obj\Debug\netcoreapp2.0\SOSRequestPortal.pdb
-D:\Repository\SOSRequestPortal\SOSRequestPortal\obj\Debug\netcoreapp2.0\SOSRequestPortal.csprojResolveAssemblyReference.cache

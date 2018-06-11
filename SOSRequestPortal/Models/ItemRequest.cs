@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace SOSRequestPortal.Models
 {
-    public class ItemRequest
+	public class ItemRequest
     {
 		public int RequestID { get; set; }
 		public DateTime Data { get; set; }
@@ -16,8 +13,8 @@ namespace SOSRequestPortal.Models
 		public string Time { get; set; }
 		public string Gestor { get; set; }
 		public string Requisitante { get; set; }
-		public DateTime HorarioDaRequisicao { get; set; }
-		public DateTime HorarioDaRetirada { get; set; }
+		public TimeSpan HorarioDaRequisicao { get; set; }
+		public string HorarioDaRetirada { get; set; }
 		public string Status { get; set; }
 	}
 }
