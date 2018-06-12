@@ -43,7 +43,7 @@ namespace SOSRequestPortal
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=User}/{action=Index}/{id?}");
+                    template: "{controller=User}/{action=Login}/{id?}");
             });
         }
     }

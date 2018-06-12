@@ -13130,11 +13130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repository\\SOSRequestPortal\\SOSRequestPortal\\SOSRequestPortal.csproj",
+      "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\SOSRequestPortal\\SOSRequestPortal\\SOSRequestPortal.csproj",
       "projectName": "SOSRequestPortal",
-      "projectPath": "D:\\Repository\\SOSRequestPortal\\SOSRequestPortal\\SOSRequestPortal.csproj",
+      "projectPath": "C:\\Users\\Fernando\\Desktop\\SOSRequestPortal\\SOSRequestPortal\\SOSRequestPortal.csproj",
       "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-      "outputPath": "D:\\Repository\\SOSRequestPortal\\SOSRequestPortal\\obj\\",
+      "outputPath": "C:\\Users\\Fernando\\Desktop\\SOSRequestPortal\\SOSRequestPortal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

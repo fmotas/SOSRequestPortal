@@ -1,0 +1,35 @@
+﻿@model SOSRequestPortal.Models.Login
+
+@{
+	ViewData["Title"] = "Login";
+}
+
+
+<center>
+	<img src="~/images/sos.png" width="440" height="250" align="top"></img>
+
+	<h4>Bem vindo</h4>
+	<hr />
+	
+			<form asp-action="Index">
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<div class="form-group">
+					<label asp-for="login" class="control-label">Login</label>
+					<input asp-for="login" class="form-control" style="width:250px" />
+					<span asp-validation-for="login" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="password" class="control-label">Password</label>
+					<input asp-for="password" class="form-control" style="width:250px" />
+					<span asp-validation-for="password" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Login" class="btn btn-default" />
+				</div>
+			</form>
+
+	<div>
+		<a asp-action="Index">Back to List</a>
+	</div>
+</center>
+

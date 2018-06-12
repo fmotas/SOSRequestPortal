@@ -16,14 +16,19 @@ namespace SOSRequestPortal.Controllers
             return View(requestRepository.requests);
         }
 
-        // GET: User/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
+		// GET: User/Details/5
+		public ActionResult Details(int id)
+		{
+			return View();
+		}
 
-        // GET: User/Create
-        public ActionResult Criar()
+		public ActionResult Login()
+		{
+			return View();
+		}
+
+		// GET: User/Create
+		public ActionResult Criar()
         {
             return View();
         }

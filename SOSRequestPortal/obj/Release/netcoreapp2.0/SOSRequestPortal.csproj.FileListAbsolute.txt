@@ -9,3 +9,14 @@ D:\Repository\SOSRequestPortal\SOSRequestPortal\obj\Release\netcoreapp2.0\SOSReq
 D:\Repository\SOSRequestPortal\SOSRequestPortal\obj\Release\netcoreapp2.0\SOSRequestPortal.AssemblyInfo.cs
 D:\Repository\SOSRequestPortal\SOSRequestPortal\obj\Release\netcoreapp2.0\SOSRequestPortal.dll
 D:\Repository\SOSRequestPortal\SOSRequestPortal\obj\Release\netcoreapp2.0\SOSRequestPortal.pdb
+C:\Users\Fernando\Desktop\SOSRequestPortal\SOSRequestPortal\bin\Release\netcoreapp2.0\SOSRequestPortal.deps.json
+C:\Users\Fernando\Desktop\SOSRequestPortal\SOSRequestPortal\bin\Release\netcoreapp2.0\SOSRequestPortal.runtimeconfig.json
+C:\Users\Fernando\Desktop\SOSRequestPortal\SOSRequestPortal\bin\Release\netcoreapp2.0\SOSRequestPortal.runtimeconfig.dev.json
+C:\Users\Fernando\Desktop\SOSRequestPortal\SOSRequestPortal\bin\Release\netcoreapp2.0\SOSRequestPortal.dll
+C:\Users\Fernando\Desktop\SOSRequestPortal\SOSRequestPortal\bin\Release\netcoreapp2.0\SOSRequestPortal.pdb
+C:\Users\Fernando\Desktop\SOSRequestPortal\SOSRequestPortal\obj\Release\netcoreapp2.0\SOSRequestPortal.csprojResolveAssemblyReference.cache
+C:\Users\Fernando\Desktop\SOSRequestPortal\SOSRequestPortal\obj\Release\netcoreapp2.0\SOSRequestPortal.csproj.CoreCompileInputs.cache
+C:\Users\Fernando\Desktop\SOSRequestPortal\SOSRequestPortal\obj\Release\netcoreapp2.0\SOSRequestPortal.AssemblyInfoInputs.cache
+C:\Users\Fernando\Desktop\SOSRequestPortal\SOSRequestPortal\obj\Release\netcoreapp2.0\SOSRequestPortal.AssemblyInfo.cs
+C:\Users\Fernando\Desktop\SOSRequestPortal\SOSRequestPortal\obj\Release\netcoreapp2.0\SOSRequestPortal.dll
+C:\Users\Fernando\Desktop\SOSRequestPortal\SOSRequestPortal\obj\Release\netcoreapp2.0\SOSRequestPortal.pdb
