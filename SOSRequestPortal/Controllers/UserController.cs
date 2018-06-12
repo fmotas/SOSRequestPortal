@@ -1,8 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SOSRequestPortal.Models;
 using SOSRequestPortal.Repository;
-using System.Reflection;
+using System;
 
 namespace SOSRequestPortal.Controllers
 {
@@ -40,6 +39,14 @@ namespace SOSRequestPortal.Controllers
         {
             try
             {
+				TimeZoneInfo hrBrasilia = TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time");
+				collection.RequestID = requestRepository.requests.Count;
+				collection.Data = DateTime.Now.ToString("dd/MM/yyyy");
+				collection.Colaborador = "API AMIGO";
+				collection.Time = "API AMIGO";
+				collection.Gestor = "API AMIGO";
+				collection.Requisitante = "API AMIGO";
+				collection.HorarioDaRequisicao = TimeZoneInfo.ConvertTimeFromUtc(DateTime.Now, hrBrasilia).ToString("HH:mm:ss");
 				requestRepository.requests.Add(collection);
                 return RedirectToAction(nameof(Index));
             }

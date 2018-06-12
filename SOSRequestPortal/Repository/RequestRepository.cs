@@ -8,7 +8,7 @@ namespace SOSRequestPortal.Repository
     {
 		private static RequestRepository instance = null;
 
-		public List<Request> requests = new List<Request>()
+		public List<Request> requests = new List<Request>();/*
 		{ new Request()
 			{
 			Data = DateTime.Now.ToString("dd/MM/yyyy"),
@@ -25,7 +25,7 @@ namespace SOSRequestPortal.Repository
 			Patrimonio = "NSA",
 			NumeroDeSerie = "NSA"
 			}
-		};
+		};*/
 
 
 		private RequestRepository()
